@@ -10,7 +10,7 @@ import TextRecognition from 'react-native-text-recognition';
 // pass the image's path to recognize
 
 
-const Ocr = () => {
+const OcrScreen = () => {
   const [pickUrl, setUrl] = useState('');
   
   const takeImageFromCamera = async () => {
@@ -29,7 +29,7 @@ const Ocr = () => {
   }
   console.log('picker',pickUrl)
   return (
-    <View>
+    <View style={{flex:1, justifyContent:'center', alignItems:'center'}}>
       <Text>RN OCR SAMPLE</Text>
       <View>
         <TouchableOpacity
@@ -41,4 +41,4 @@ const Ocr = () => {
   );
 };
 
-export default Ocr;
+export default OcrScreen;
