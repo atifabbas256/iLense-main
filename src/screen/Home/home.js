@@ -1,14 +1,16 @@
-import React, {useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import {View,Text,TouchableOpacity} from 'react-native';
 import {launchCamera, launchImageLibrary} from 'react-native-image-picker';
 import Tflite from 'tflite-react-native';
 
+
 let tflite = new Tflite();
 import header from 'react-native/Libraries/NewAppScreen/components/Header';
-
+const model = require('../../main/assets/model_unquant.tflite');
+const labelFile = require('../../main/assets/lablesTranslation.xlsx');
 tflite.loadModel({
-    model: '.',// required
-    labels: 'models/mobilenet_v1_1.0_224.txt',  // required
+    model: 'models/model_unquant.tflite',// required
+    labels: 'models/lablesTranslation.xlsx',  // required
     numThreads: 1,                              // defaults to 1
   },
   (err, res) => {
@@ -17,12 +19,15 @@ tflite.loadModel({
     else
       console.log(res);
   });
-
-
-
 function HomeScreen({navigation}) {
     const [pickUrl,setUrl]=useState(null);
-
+  
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+  
+  
+  });
+  
 const takeImageFromCamera=async ()=>{
    const options={
        mediaType:'photo',

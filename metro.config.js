@@ -6,6 +6,9 @@
  */
 
 module.exports = {
+  resolver: {
+    assetExts: ['tflite', 'txt']
+  },
   transformer: {
     getTransformOptions: async () => ({
       transform: {
