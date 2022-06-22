@@ -6,18 +6,18 @@ import Tflite from 'tflite-react-native';
 
 let tflite = new Tflite();
 import header from 'react-native/Libraries/NewAppScreen/components/Header';
-const model = require('../../main/assets/model_unquant.tflite');
-const labelFile = require('../../main/assets/lablesTranslation.xlsx');
+const model = require('../../../android/app/src/main/assets/models/model_unquant.tflite');
+const labelFile = require('../../../android/app/src/main/assets/models/lablesTranslation.xlsx');
 tflite.loadModel({
-    model: 'models/model_unquant.tflite',// required
-    labels: 'models/lablesTranslation.xlsx',  // required
+    model: 'models/model.tflite',// required
+    labels: 'models/labels.txt',  // required
     numThreads: 1,                              // defaults to 1
   },
   (err, res) => {
     if(err)
       console.log(err);
     else
-      console.log(res);
+      console.log('response./././.', res);
   });
 function HomeScreen({navigation}) {
     const [pickUrl,setUrl]=useState(null);
@@ -34,10 +34,10 @@ const takeImageFromCamera=async ()=>{
        cameraType:'back'
    }
 // You can also use as a promise without 'callback':
-    const result = await launchCamera(options);
+    const result = await launchImageLibrary(options);
    console.log(result)
   tflite.runModelOnImage({
-      path: result[0].path,  // required
+      path: result.assets[0].uri,  // required
       imageMean: 128.0, // defaults to 127.5
       imageStd: 128.0,  // defaults to 127.5
       numResults: 3,    // defaults to 5
@@ -47,7 +47,7 @@ const takeImageFromCamera=async ()=>{
       if(err)
         console.log(err);
       else
-        console.log(res);
+        console.log('response',res);
     });
 }
 const onClickOCR=async ()=>{
