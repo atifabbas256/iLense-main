@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "313905161226",
+    "project_id": "ilense-db594",
+    "storage_bucket": "ilense-db594.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313905161226:android:1851cb9813b71cb2cb2bf3",
+        "android_client_info": {
+          "package_name": "com.ilense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313905161226-t9tm4sgoo4csg0q7acuoq84ki8982sk8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ilense",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "313905161226-64ra2eugqpm9td3t1gqcc49s6cmn9s7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_Qec5Xh9Xz1CZ4vijrFLXPpcs9qHjUWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313905161226-64ra2eugqpm9td3t1gqcc49s6cmn9s7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

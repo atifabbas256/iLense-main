@@ -2,9 +2,10 @@ import * as React from 'react';
 import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomeScreen from './src/screen/Home/home';
 import SplashScreen from './src/screen/Splach/splash';
-import OCRScreen from './src/screen/OCR/ocr';
+import LoginEmail from "./src/screen/LoginEmail/login";
+import CustomBottomTab from "./src/components/CustomBottomTab";
+import WalkThrough from "./src/screen/Intro/Walkthrough";
 const Stack = createNativeStackNavigator();
 
 function App() {
@@ -14,8 +15,14 @@ function App() {
             headerShown: false,
         }}  >
             <Stack.Screen name="Splash" component={SplashScreen} />
-          <Stack.Screen name="Home" component={HomeScreen} />
-          <Stack.Screen name="Ocr" component={OCRScreen} />
+
+            <Stack.Screen name="walkThrough" component={WalkThrough} />
+
+            <Stack.Screen name={'Login'} component={LoginEmail}/>
+
+
+            <Stack.Screen name={'HomeStack'} component={CustomBottomTab}/>
+
 
         </Stack.Navigator>
       </NavigationContainer>

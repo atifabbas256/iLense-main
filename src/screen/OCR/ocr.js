@@ -14,7 +14,7 @@ import TextRecognition from 'react-native-text-recognition';
 
 const OcrScreen = () => {
   const [pickUrl, setUrl] = useState('');
-  
+
   const takeImageFromCamera = async () => {
     console.log('image')
     const options = {
@@ -22,14 +22,17 @@ const OcrScreen = () => {
       cameraType: 'back'
     }
 // You can also use as a promise without 'callback':
-    const result = await launchCamera(options);
+    const result = await launchImageLibrary(options);
     console.log(result.assets[0].uri)
     const text = await TextRecognition.recognize(result.assets[0].uri, {
       visionIgnoreThreshold: 0.5
-    });
-    setUrl(text)
+    }).then((r)=>{
+      setUrl(r)
+      console.log('rrrr',r)});
+    //
+    console.log('picker',text)
   }
-  console.log('picker',pickUrl)
+
   return (
     <View style={{flex:1, justifyContent:'center', alignItems:'center'}}>
       <Text>RN OCR SAMPLE</Text>
@@ -39,11 +42,12 @@ const OcrScreen = () => {
           <Text>Take Photo</Text>
         </TouchableOpacity>
       </View>
-      {pickUrl.map(text =>(
+     <Text>{pickUrl && pickUrl.map(text =>(
         <Text>{text}</Text>
       ))}
-      {/*<Text>{pickUrl}</Text>*/}
-  
+     </Text>
+      <Text>{pickUrl}</Text>
+
       {/*<ResultScreen text={pickUrl}/>*/}
     </View>
   );
