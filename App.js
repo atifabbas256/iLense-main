@@ -6,23 +6,33 @@ import SplashScreen from './src/screen/Splach/splash';
 import LoginEmail from "./src/screen/LoginEmail/login";
 import CustomBottomTab from "./src/components/CustomBottomTab";
 import WalkThrough from "./src/screen/Intro/Walkthrough";
+import OcrScreen from "./src/screen/OCR/ocr";
 const Stack = createNativeStackNavigator();
+const OcrStack = createNativeStackNavigator();
 
+
+// export const OcrNavigation=()=>{
+//   return(
+//       <NavigationContainer >
+//           <OcrStack.Navigator screenOptions={{
+//               headerShown: false,
+//           }}  >
+//               <OcrStack.Screen name="ocr" component={OcrScreen} />
+//               <OcrStack.Screen name={'result'} component={Result}/>
+//           </OcrStack.Navigator>
+//       </NavigationContainer>
+//   )
+// }
 function App() {
   return (
       <NavigationContainer >
         <Stack.Navigator screenOptions={{
             headerShown: false,
         }}  >
-            <Stack.Screen name="Splash" component={SplashScreen} />
-
-            <Stack.Screen name="walkThrough" component={WalkThrough} />
-
-            <Stack.Screen name={'Login'} component={LoginEmail}/>
-
-
             <Stack.Screen name={'HomeStack'} component={CustomBottomTab}/>
-
+            <Stack.Screen name="Splash" component={SplashScreen} />
+            <Stack.Screen name="walkThrough" component={WalkThrough} />
+            <Stack.Screen name={'Login'} component={LoginEmail}/>
 
         </Stack.Navigator>
       </NavigationContainer>

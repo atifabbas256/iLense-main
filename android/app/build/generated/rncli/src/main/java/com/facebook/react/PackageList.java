@@ -15,8 +15,12 @@ import java.util.ArrayList;
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 // @react-native-firebase/auth
 import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
+// @react-native-firebase/storage
+import io.invertase.firebase.storage.ReactNativeFirebaseStoragePackage;
 // @react-native-google-signin/google-signin
 import com.reactnativegooglesignin.RNGoogleSigninPackage;
+// react-native-fs
+import com.rnfs.RNFSPackage;
 // react-native-image-picker
 import com.imagepicker.ImagePickerPackage;
 // react-native-safe-area-context
@@ -78,7 +82,9 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new ReactNativeFirebaseAppPackage(),
       new ReactNativeFirebaseAuthPackage(),
+      new ReactNativeFirebaseStoragePackage(),
       new RNGoogleSigninPackage(),
+      new RNFSPackage(),
       new ImagePickerPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
