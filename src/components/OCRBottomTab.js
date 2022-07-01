@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeScreen from "../screen/Home/home";
+import HomeScreen from "../screen/OCR/Home/home";
 import OCRScreen from "../screen/OCR/ScanData/ocr";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import AntDesign from 'react-native-vector-icons/AntDesign';

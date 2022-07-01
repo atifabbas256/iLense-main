@@ -7,8 +7,9 @@ import LoginEmail from "./src/screen/LoginEmail/login";
 import OCRBottomTab from "./src/components/OCRBottomTab";
 import TensrFlowBottomTab from "./src/components/TensrFlowBottomTab";
 import WalkThrough from "./src/screen/Intro/Walkthrough";
-import OcrScreen from "./src/screen/OCR/ScanData/ocr";
+import SignUp from "./src/screen/SignUp/signUp";
 import HomeScreen from "./src/screen/Home/home";
+
 const Stack = createNativeStackNavigator();
 const OcrStack = createNativeStackNavigator();
 
@@ -27,19 +28,21 @@ const OcrStack = createNativeStackNavigator();
 // }
 function App() {
   return (
-      <NavigationContainer >
-        <Stack.Navigator screenOptions={{
-            headerShown: false,
-        }}  >
-            <Stack.Screen name={'HomeScreen'} component={HomeScreen}/>
-            <Stack.Screen name={'OCRBottomTab'} component={OCRBottomTab}/>
-            <Stack.Screen name={'TensrFlowBottomTab'} component={TensrFlowBottomTab}/>
-            <Stack.Screen name="Splash" component={SplashScreen} />
-            <Stack.Screen name="walkThrough" component={WalkThrough} />
-            <Stack.Screen name={'Login'} component={LoginEmail}/>
-
-        </Stack.Navigator>
-      </NavigationContainer>
+    <NavigationContainer>
+      <Stack.Navigator screenOptions={{
+        headerShown: false
+      }}>
+        <Stack.Screen name="Splash" component={SplashScreen}/>
+        <Stack.Screen name="walkThrough" component={WalkThrough}/>
+        <Stack.Screen name={'Login'} component={LoginEmail}/>
+        <Stack.Screen name={'SignUp'} component={SignUp}/>
+        <Stack.Screen name={'HomeScreen'} component={HomeScreen}/>
+        <Stack.Screen name={'OCRBottomTab'} component={OCRBottomTab}/>
+        <Stack.Screen name={'TensrFlowBottomTab'} component={TensrFlowBottomTab}/>
+      
+      
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 

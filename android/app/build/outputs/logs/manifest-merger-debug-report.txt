@@ -15,6 +15,7 @@ MERGED from [:react-native-firebase_app] /Users/mac/Downloads/ILense-main/node_m
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/mac/.gradle/caches/transforms-3/b8d1d8e56e1a12f642bddd5037242447/transformed/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-vector-icons] /Users/mac/Downloads/ILense-main/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-fs] /Users/mac/Downloads/ILense-main/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_async-storage] /Users/mac/Downloads/ILense-main/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-google-signin_google-signin] /Users/mac/Downloads/ILense-main/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-image-picker] /Users/mac/Downloads/ILense-main/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
 MERGED from [:react-native-safe-area-context] /Users/mac/Downloads/ILense-main/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -332,6 +333,8 @@ MERGED from [:react-native-vector-icons] /Users/mac/Downloads/ILense-main/node_m
 MERGED from [:react-native-vector-icons] /Users/mac/Downloads/ILense-main/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-fs] /Users/mac/Downloads/ILense-main/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-fs] /Users/mac/Downloads/ILense-main/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /Users/mac/Downloads/ILense-main/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /Users/mac/Downloads/ILense-main/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-google-signin_google-signin] /Users/mac/Downloads/ILense-main/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-google-signin_google-signin] /Users/mac/Downloads/ILense-main/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-image-picker] /Users/mac/Downloads/ILense-main/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41

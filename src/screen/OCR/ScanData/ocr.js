@@ -72,18 +72,6 @@ const OcrScreen = () => {
   
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      {/*<View>*/}
-      {/*  <TouchableOpacity*/}
-      {/*    onPress={takeImageFromCamera}>*/}
-      {/*    <Text>Take Photo</Text>*/}
-      {/*  </TouchableOpacity>*/}
-      {/*</View>*/}
-      {/*<Text>{pickUrl && pickUrl.map(text =>(*/}
-      {/*   <Text>{text}</Text>*/}
-      {/* ))}*/}
-      {/*</Text>*/}
-      {/* <Text>{pickUrl}</Text>*/}
-      
       <View style={{ flex: 1, alignItems: 'center' }}>
         <Text style={{ fontSize: 24, padding: hp('2%'), fontWeight: 'bold' }}>Result</Text>
         <View style={{
