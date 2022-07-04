@@ -1,3 +1,0 @@
-0 Square
-1 Circle
-2 Triangle
