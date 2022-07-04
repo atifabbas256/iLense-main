@@ -1,12 +1,15 @@
 import React, { useEffect } from 'react';
 import { View, Text, Image } from 'react-native';
 import { heightPercentageToDP as hp, widthPercentageToDP as wp } from "react-native-responsive-screen";
+import AsyncStorage from "@react-native-community/async-storage";
 
 function SplashScreen({ navigation }) {
-  useEffect(() => {
+  useEffect(async () => {
+      let loginUser = await AsyncStorage.getItem('loginUser');
+    
       setTimeout(
         () => {
-          navigation.navigate('walkThrough')
+          navigation.navigate(loginUser ? 'HomeScreen' : 'walkThrough')
         }, 1000
       )
     }, []

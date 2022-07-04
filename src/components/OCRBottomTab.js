@@ -15,7 +15,7 @@ function CustomTabBar() {
     <Tab.Navigator
       screenOptions={{
         headerShown: false,
-        tabBarActiveTintColor: '#20c65a'
+        tabBarActiveTintColor: '#8d71fe'
       }}>
       <Tab.Screen
         options={{
