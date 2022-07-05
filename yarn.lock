@@ -1361,21 +1361,21 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.2.0.tgz#7d6d789ae8edf73dc9bed1246cd48277edea8066"
   integrity sha512-o6aam+0Ug1xGK3ABYmBm0B1YuEKfM/5kaoZO0eHbZwSpw9UzDX4G5y4Nx/K20FHqUmJHkZmLvOUFYwN4N+HqKA==
 
-"@react-native-firebase/app@^15.0.0":
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-15.0.0.tgz#1d47cbc57641a27dbc7abbd0590a2ee6edcc70b7"
-  integrity sha512-H4u50FaveRmKuzmKsbFUaq+9jFJrIcn2/auw441h24A0fcxAhKzlYQ6DK9IvoqCX/PKX1DZYrDo6UC/d4YjCGw==
+"@react-native-firebase/app@15.1.0":
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-15.1.0.tgz#2b19dcd8f7c3cdba253d79bcd30ee676bbf1d9a4"
+  integrity sha512-B/z27R2JDNr18saQd3sGsbQW39E7HPqPxxEy5O62+nMfVed/5iCPvuKCgd7psAKSwm08QS/22CnUZw9eKNLZ1Q==
   dependencies:
     "@expo/config-plugins" "^4.1.5"
     opencollective-postinstall "^2.0.1"
     superstruct "^0.6.2"
 
-"@react-native-firebase/auth@^15.0.0":
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/@react-native-firebase/auth/-/auth-15.0.0.tgz#4e6339e143e4ac1d5b1f8614b83d0fff70c58446"
-  integrity sha512-eT0NBmwGjR+v881ipBrCbFEMgznqwzlRC9rX+ZqoJfpv/ZqmZ4R8SRqIy/XtEztQFcTzG5RGKFQDCMweDLOtvQ==
+"@react-native-firebase/auth@15.1.0":
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/auth/-/auth-15.1.0.tgz#9cf681f83c10491d460f097f6075e8c93dd2e5af"
+  integrity sha512-vcD/PHsP2TWbCMeT3Km+7iyA8Rr+lmMyFDyFwVtiEzohGCaFllVx9tbzIe4tG5E/s/fuNzbyW4X/b7f5lbyJqQ==
 
-"@react-native-firebase/storage@^15.1.0":
+"@react-native-firebase/storage@15.1.0":
   version "15.1.0"
   resolved "https://registry.yarnpkg.com/@react-native-firebase/storage/-/storage-15.1.0.tgz#f68254d3e3d1fdc61fdfff285f1fc5e7a79ff9c1"
   integrity sha512-Rm85AKX8fMg2/07Rnsy+7SDS8gFLEqQxtUDR6IHsvPrtg5Zp7KbsPGBT7lCmqNbld19NC9qGd4le9+gYAPla+w==
