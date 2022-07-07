@@ -13,7 +13,7 @@ const reference = storage().ref('Database1');
 
 const OcrScreen = () => {
   const [pickUrl, setUrl] = useState('');
-  const [text, setText] = useState('hi how are youbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv');
+  const [text, setText] = useState('');
   const [edit, setEdit] = useState(false);
   
 /*
@@ -72,6 +72,7 @@ const OcrScreen = () => {
   
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+    {text?
       <View style={{ flex: 1, alignItems: 'center' }}>
         <Text style={{ fontSize: 24, padding: hp('2%'), fontWeight: 'bold' }}>Result</Text>
         <View style={{
@@ -97,13 +98,13 @@ const OcrScreen = () => {
                        value={text}
             /> :
             <ScrollView showsVerticalScrollIndicator={false}>
-              
+
               <Text style={{ fontSize: 16, textAlign: 'justify' }}>
                 {text}
               </Text>
             </ScrollView>}
         </View>
-        
+
         <View style={{
           flexDirection: 'row',
           marginTop: hp('2%'),
@@ -119,14 +120,14 @@ const OcrScreen = () => {
             </View>
           </TouchableOpacity>
           <TouchableOpacity>
-            
+
             <View>
               <AntDesign name={'delete'} color={'black'} size={26}/>
               <Text style={{ marginTop: hp('1%') }}>Delete</Text>
             </View>
           </TouchableOpacity>
           <TouchableOpacity>
-            
+
             <View style={{ alignItems: 'center' }}>
               <AntDesign name={'delete'} color={'black'} size={20}/>
               <Text style={{ marginTop: hp('1%') }}>Delete</Text>
@@ -152,9 +153,40 @@ const OcrScreen = () => {
             </Text>
           </View>
         </TouchableOpacity>
-      
-      </View>
-      {/*<ResultScreen text={pickUrl}/>*/}
+
+      </View> :
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+                <View>
+                  <TouchableOpacity onPress={() => takeImageFromCamera('Camera')} style={{
+                    marginVertical: 20,
+                    padding: 20,
+                    borderRadius: 10,
+                    marginTop: hp('2%'),
+                    width: wp('90%'),
+                    backgroundColor: '#8d71fe',
+                    paddingVertical: hp('2%')
+                  }}>
+                    <Text style={{ fontSize: 20, textAlign: 'center', color: '#fff', justifyContent: 'center' }}>
+                      Camera
+                    </Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity onPress={() => takeImageFromCamera('Library')} style={{
+                    marginVertical: 20,
+                    padding: 20,
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    borderRadius: 10,
+                    marginTop: hp('2%'),
+                    width: wp('90%'),
+                    backgroundColor: '#8d71fe',
+                    paddingVertical: hp('2%')
+                  }}>
+                    <Text style={{ fontSize: 20, textAlign: 'center', color: '#fff', justifyContent: 'center' }}>
+                      Library
+                    </Text>
+                  </TouchableOpacity>
+                </View>
+              </View>}
     </View>
   );
 };

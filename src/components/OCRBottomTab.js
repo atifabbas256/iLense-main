@@ -17,16 +17,7 @@ function CustomTabBar() {
         headerShown: false,
         tabBarActiveTintColor: '#8d71fe'
       }}>
-      <Tab.Screen
-        options={{
-          tabBarLabel: 'Scan',
-          tabBarIcon: ({ color, size }) => (
-            <AntDesign
-              color={color}
-              name="scan1"
-              size={25}/>)
-        }}
-        name="Home" component={HomeScreen}/>
+
       <Tab.Screen
         options={{
           tabBarLabel: 'Scan',
