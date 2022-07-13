@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">313905161226-64ra2eugqpm9td3t1gqcc49s6cmn9s7p.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">313905161226</string>
+    <string name="google_api_key" translatable="false">AIzaSyC_Qec5Xh9Xz1CZ4vijrFLXPpcs9qHjUWE</string>
+    <string name="google_app_id" translatable="false">1:313905161226:android:1851cb9813b71cb2cb2bf3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC_Qec5Xh9Xz1CZ4vijrFLXPpcs9qHjUWE</string>
+    <string name="google_storage_bucket" translatable="false">ilense-db594.appspot.com</string>
+    <string name="project_id" translatable="false">ilense-db594</string>
+</resources>

@@ -15,7 +15,7 @@ const OcrScreen = () => {
   const [pickUrl, setUrl] = useState('');
   const [text, setText] = useState('');
   const [edit, setEdit] = useState(false);
-  
+
 /*
   const takeImageFromCamera = async () => {
     console.log('image')
@@ -36,25 +36,48 @@ const OcrScreen = () => {
     console.log('picker', text)
   }
 */
+  const takeImageFromCamera = async (type) => {
+    const options = {
+      mediaType: 'photo',
+      cameraType: 'back'
+    }
+    // You can also use as a promise without 'callback':
+    let result
+    if (type === 'Camera') {
+      result = await launchCamera(options);
+    } else {
+      result = await launchImageLibrary(options);
+    }
+    setUrl(result.assets[0].uri)
+    console.log(result.assets[0].uri)
+    const text = await TextRecognition.recognize(result.assets[0].uri, {
+      visionIgnoreThreshold: 0.5
+    }).then((r) => {
+      // setUrl(r)
+      console.log('rrrr', r)
+    });
+    //
+    console.log('picker', text)   }
+
   const saveFile = () => {
     let RNFS = require('react-native-fs');
-    
+
     let path = `${RNFS.ExternalStorageDirectoryPath}/Pictures/Skype/H15.doc`;
     console.log('path', path)
-    
+
     RNFS.writeFile(path, 'hi how are uou assssssssssssssssss', 'utf8')
       .then(async (success) => {
         console.log('FILE WRITTEN!', success);
         await reference.putFile(path);
-        
+
         console.log('FILE WRITTEN!', success);
       })
       .catch((err) => {
         console.log(err.message);
       });
     //     const pathToFile = path;
-    
-    
+
+
     //
     // RNFS.writeFile(path, text, 'utf8')
     //     .then(async (success) => {
@@ -67,9 +90,9 @@ const OcrScreen = () => {
     //     .catch((err) => {
     //         console.log(err.message);
     //     });
-    
+
   }
-  
+
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
     {text?

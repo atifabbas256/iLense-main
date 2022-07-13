@@ -3,11 +3,13 @@ import { View, Text, TouchableOpacity, Image } from 'react-native';
 import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
 import { heightPercentageToDP as hp, widthPercentageToDP as wp } from "react-native-responsive-screen";
 import auth from '@react-native-firebase/auth';
+import TextRecognition from 'react-native-text-recognition';
+
 
 function HomeScreen({ route,navigation }) {
   const [imageUri, setImageUri] = useState(null);
   const [response, setResponse] = useState('');
-  // console.log(route.params.user)
+
   const takeImageFromCamera = async (type) => {
     const options = {
       mediaType: 'photo',
@@ -21,9 +23,35 @@ function HomeScreen({ route,navigation }) {
       result = await launchImageLibrary(options);
     }
     setImageUri(result.assets[0].uri)
-    console.log('result', result)
-  }
-  
+  console.log(result.assets[0].uri)
+  const text = await TextRecognition.recognize(result.assets[0].uri, {
+    visionIgnoreThreshold: 0.5
+  }).then((r) => {
+    // setUrl(r)
+    console.log('rrrr', r)
+  });
+  //
+  console.log('picker', text)   }
+
+//   const takeImageFromCamera = async () => {
+//     console.log('image')
+//     const options = {
+//       mediaType: 'photo',
+//       cameraType: 'back'
+//     }
+// // You can also use as a promise without 'callback':
+//     const result = await launchImageLibrary(options);
+//     console.log(result.assets[0].uri)
+//     const text = await TextRecognition.recognize(result.assets[0].uri, {
+//       visionIgnoreThreshold: 0.5
+//     }).then((r) => {
+//       // setUrl(r)
+//       console.log('rrrr', r)
+//     });
+//     //
+//     console.log('picker', text)
+//   }
+
   return (
     <View style={{ flex: 1 }}>
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
