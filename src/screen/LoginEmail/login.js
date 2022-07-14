@@ -1,5 +1,14 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, TextInput, Image } from "react-native";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  TextInput,
+  Image,
+  TouchableWithoutFeedback,
+  Keyboard,
+  StatusBar
+} from "react-native";
 import auth from '@react-native-firebase/auth';
 import { GoogleSignin, GoogleSigninButton } from '@react-native-google-signin/google-signin';
 import { heightPercentageToDP as hp, widthPercentageToDP as wp } from "react-native-responsive-screen";
@@ -11,6 +20,7 @@ GoogleSignin.configure({
 const LoginEmail = ({ navigation }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [borderColor, setBorderColor] = useState('');
   
   
   const googleLogin = async () => {
@@ -73,7 +83,7 @@ const LoginEmail = ({ navigation }) => {
           navigation.reset({
             routes: [{ name: 'HomeScreen' }]
           });
-  
+          
           console.log('User account created & signed in!', e);
         })
         .catch(error => {
@@ -92,41 +102,54 @@ const LoginEmail = ({ navigation }) => {
   }
   
   return (
-    <View style={{ flex: 1, alignItems: 'center', padding: 20, backgroundColor: '#ffffff' }}>
-      <Image style={{
-        height: hp('30%'),
+    <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+      <View style={{ flex: 1, alignItems: 'center', padding: 20, backgroundColor: '#ffffff' }}>
+        <StatusBar barStyle={'dark-content'} backgroundColor={'white'}/>
+        <Image style={{
+        height: wp('30%'),
         resizeMode: 'contain',
-        width: wp('40%'),
-        transform: [{ rotate: '14deg' }],
+        width: wp('30%'),
+        // transform: [{ rotate: '14deg' }],
         alignItems: 'center',
-        alignSelf: 'center'
-      }} source={require('../../assets/logo.png')}/>
-      <TextInput onChangeText={(e) => {
+        alignSelf: 'center',
+        marginBottom: wp(20)
+      }} source={require('../../assets/icon.png')}/>
+      <TextInput
+        onChangeText={(e) => {
         setEmail(e)
-      }} placeholder={'Email'} keyboardType={'email-address'} style={{
+      }}
+        placeholderTextColor={'#929191'}
+        placeholder={'Email'}
+        keyboardType={'email-address'} style={{
         width: '90%',
         borderWidth: 1,
         marginVertical: 5,
         borderRadius: 10,
-        borderColor: '#8d71fe',
+        borderColor: '#00a7e7',
         paddingHorizontal: wp('2%')
       }}/>
-      <TextInput onChangeText={(e) => {
-        setPassword(e)
-      }} placeholder={'Password'} secureTextEntry={true} style={{
+      <TextInput
+        onChangeText={(e) => {
+          setPassword(e)
+        }}
+        placeholderTextColor={'#929191'}
+        placeholder={'Password'}
+        secureTextEntry={true}
+        style={{
         width: '90%',
         borderWidth: 1,
         marginVertical: 5,
         borderRadius: 10,
-        borderColor: '#8d71fe',
+        borderColor: '#00a7e7',
         paddingHorizontal: wp('2%')
       }}/>
-      <View style={{width:'90%', marginTop:10, flexDirection:'row', alignItems:'center', }}>
-        <Text style={{ textAlign: 'left',  color: '#000000', fontSize: 15, }}>No account? </Text>
+     
+      <View style={{ width: '90%', marginTop: 10, flexDirection: 'row', alignItems: 'center' }}>
+        <Text style={{ textAlign: 'left', color: '#000000', fontSize: 15 }}>No account? </Text>
         <TouchableOpacity onPress={() => {
           navigation.navigate('SignUp')
         }}>
-          <Text style={{ color: '#6945fc', fontSize: 16 }}>Create one!</Text>
+          <Text style={{ color: '#00a7e7', fontSize: 16 }}>Create one!</Text>
         </TouchableOpacity>
       </View>
       <TouchableOpacity onPress={() => {
@@ -135,11 +158,12 @@ const LoginEmail = ({ navigation }) => {
         height: 50,
         borderRadius: 10,
         alignItems: 'center',
+        marginTop: wp(10),
         marginVertical: hp('2%'),
         alignSelf: 'center',
         justifyContent: 'center',
         width: '60%',
-        backgroundColor: '#8d71fe'
+        backgroundColor: '#00a7e7'
       }}>
         <Text style={{ color: '#fff', fontSize: 16 }}>Sign in</Text>
       </TouchableOpacity>
@@ -148,7 +172,7 @@ const LoginEmail = ({ navigation }) => {
           alert('Password reset email sent!')
         })
       }}>
-        <Text style={{ color: '#6945fc', fontSize: 16 }}>Forgotten your password?</Text>
+        <Text style={{ color: '#e70000', fontSize: 16 }}>Forgotten your password?</Text>
       </TouchableOpacity>
       
       <View style={{ alignItems: 'center', alignSelf: 'center', top: '10%' }}>
@@ -167,6 +191,7 @@ const LoginEmail = ({ navigation }) => {
         />
       </View>
     </View>
+    </TouchableWithoutFeedback>
   )
 }
 export default LoginEmail;

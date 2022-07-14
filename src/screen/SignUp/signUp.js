@@ -72,7 +72,7 @@ const LoginEmail = ({ navigation }) => {
         transform: [{ rotate: '14deg' }],
         alignItems: 'center',
         alignSelf: 'center'
-      }} source={require('../../assets/logo.png')}/>
+      }} source={require('../../assets/icon.png')}/>
       <TextInput onChangeText={(e) => {
         setEmail(e)
       }} placeholder={'Full Name'}  style={{

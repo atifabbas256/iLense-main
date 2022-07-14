@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native'
+import { View, Text, Image, StatusBar } from 'react-native'
 import AppIntroSlider from 'react-native-app-intro-slider';
 import { heightPercentageToDP as hp, widthPercentageToDP as wp } from "react-native-responsive-screen";
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -30,7 +30,7 @@ const slides = [
 const WalkThrough = ({ navigation }) => {
   const renderNextButton = () => {
     return (
-      <View style={{ borderRadius: 10, backgroundColor: '#8d71fe', paddingVertical: hp('2%') }}>
+      <View style={{ borderRadius: 10, backgroundColor: '#00a7e7', paddingVertical: hp('2%') }}>
         <Text style={{ fontSize: 20, textAlign: 'center', color: '#fff', justifyContent: 'center' }}>
           Next
         </Text>
@@ -39,7 +39,7 @@ const WalkThrough = ({ navigation }) => {
   };
   const renderDone = () => {
     return (
-      <View style={{ borderRadius: 10, backgroundColor: '#8d71fe', paddingVertical: hp('2%') }}>
+      <View style={{ borderRadius: 10, backgroundColor: '#00a7e7', paddingVertical: hp('2%') }}>
         <Text style={{ fontSize: 20, textAlign: 'center', color: '#fff', justifyContent: 'center' }}>
           Done
         </Text>
@@ -58,7 +58,8 @@ const WalkThrough = ({ navigation }) => {
   const _renderItem = ({ item }) => {
     return (
       <View style={{ flex: 1, backgroundColor: '#fafafa' }}>
-        
+        <StatusBar barStyle={'dark-content'} backgroundColor={'white'}/>
+  
         <Image style={{
           height: hp('60%'),
           resizeMode: 'contain',
