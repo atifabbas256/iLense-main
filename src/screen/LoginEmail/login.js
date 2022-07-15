@@ -106,13 +106,14 @@ const LoginEmail = ({ navigation }) => {
       <View style={{ flex: 1, alignItems: 'center', padding: 20, backgroundColor: '#ffffff' }}>
         <StatusBar barStyle={'dark-content'} backgroundColor={'white'}/>
         <Image style={{
-        height: wp('30%'),
+        height: wp('25%'),
         resizeMode: 'contain',
-        width: wp('30%'),
+        width: wp('25%'),
         // transform: [{ rotate: '14deg' }],
         alignItems: 'center',
         alignSelf: 'center',
-        marginBottom: wp(20)
+        marginBottom: wp(20),
+        marginTop: wp(10)
       }} source={require('../../assets/icon.png')}/>
       <TextInput
         onChangeText={(e) => {
@@ -120,8 +121,11 @@ const LoginEmail = ({ navigation }) => {
       }}
         placeholderTextColor={'#929191'}
         placeholder={'Email'}
-        keyboardType={'email-address'} style={{
-        width: '90%',
+        keyboardType={'email-address'}
+        style={{
+          color:'#000',
+          fontWeight:'bold',
+          width: '90%',
         borderWidth: 1,
         marginVertical: 5,
         borderRadius: 10,
@@ -136,7 +140,9 @@ const LoginEmail = ({ navigation }) => {
         placeholder={'Password'}
         secureTextEntry={true}
         style={{
-        width: '90%',
+          color:'#000',
+          fontWeight:'bold',
+          width: '90%',
         borderWidth: 1,
         marginVertical: 5,
         borderRadius: 10,

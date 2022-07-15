@@ -7,9 +7,8 @@ import { heightPercentageToDP as hp, widthPercentageToDP as wp } from "react-nat
 let tflite = new Tflite();
 
 tflite.loadModel({
-    model: 'models/model.tflite',// required
-    labels: 'models/labels.txt',  // required
-    numThreads: 1                              // defaults to 1
+    model: 'models/model1.tflite',// required
+    labels: 'models/labels1.txt',  // required
   },
   (err, res) => {
     if (err)
@@ -34,13 +33,14 @@ function HomeScreen({ navigation }) {
       result = await launchImageLibrary(options);
     }
     setImageUriUri(result.assets[0].uri)
-    console.log('result', result)
+    console.log('imageUri', result.assets[0].uri)
+    try {
     tflite.runModelOnImage({
         path: result.assets[0].uri,  // required
-        imageMean: 128.0, // defaults to 127.5
-        imageStd: 128.0,  // defaults to 127.5
-        numResults: 3,    // defaults to 5
-        threshold: 0.05   // defaults to 0.1
+        // imageMean: 128.0, // defaults to 127.5
+        // imageStd: 128.0,  // defaults to 127.5
+        // numResults: 3,    // defaults to 5
+        // threshold: 1   // defaults to 0.1
       },
       (err, res) => {
         setResponse(res)
@@ -49,7 +49,10 @@ function HomeScreen({ navigation }) {
         else
           console.log('response', res);
         // navigation.navigate('Result', { uri: result.assets[0].uri, res: res })
-      });
+      });}
+    catch (e) {
+      console.log('response', e);
+    }
   }
   
   

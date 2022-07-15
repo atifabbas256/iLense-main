@@ -42,7 +42,7 @@ function SplashScreen({ navigation }) {
       
       setTimeout(
         () => {
-          navigation.navigate(loginUser ? 'HomeScreen' : 'walkThrough')
+          navigation.replace(loginUser ? 'HomeScreen' : 'walkThrough')
         }, 1000
       )
     });

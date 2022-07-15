@@ -39,7 +39,7 @@ const WalkThrough = ({ navigation }) => {
   };
   const renderDone = () => {
     return (
-      <View style={{ borderRadius: 10, backgroundColor: '#00a7e7', paddingVertical: hp('2%') }}>
+      <View style={{ borderRadius: 10, backgroundColor: '#00a7e7', elevation:2, paddingVertical: hp('2%') }}>
         <Text style={{ fontSize: 20, textAlign: 'center', color: '#fff', justifyContent: 'center' }}>
           Done
         </Text>
@@ -48,8 +48,8 @@ const WalkThrough = ({ navigation }) => {
   }
   const renderSkipButton = () => {
     return (
-      <View style={{ backgroundColor: '#fff', borderRadius: 10 }}>
-        <Text style={{ fontSize: 20, textAlign: 'center', justifyContent: 'center', paddingVertical: hp('2%') }}>
+      <View style={{ backgroundColor: '#fff', borderRadius: 10, elevation:2 }}>
+        <Text style={{ fontSize: 20, textAlign: 'center', justifyContent: 'center', color:'#00a7e7', paddingVertical: hp('2%') }}>
           Skip
         </Text>
       </View>

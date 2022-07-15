@@ -66,57 +66,78 @@ const LoginEmail = ({ navigation }) => {
   return (
     <View style={{ flex: 1, alignItems: 'center', padding: 20, backgroundColor: '#fafafa' }}>
       <Image style={{
-        height: hp('30%'),
+        height: wp('25%'),
         resizeMode: 'contain',
-        width: wp('40%'),
-        transform: [{ rotate: '14deg' }],
+        width: wp('25%'),
+        // transform: [{ rotate: '14deg' }],
         alignItems: 'center',
-        alignSelf: 'center'
-      }} source={require('../../assets/icon.png')}/>
-      <TextInput onChangeText={(e) => {
-        setEmail(e)
-      }} placeholder={'Full Name'}  style={{
-        width: '90%',
-        borderWidth: 1,
-        marginVertical: 5,
-        borderRadius: 10,
-        borderColor: '#8d71fe',
-        paddingHorizontal: wp('2%')
-      }}/>
-      <TextInput onChangeText={(e) => {
-        setEmail(e)
-      }} placeholder={'Email'} keyboardType={'email-address'} style={{
-        width: '90%',
-        borderWidth: 1,
-        marginVertical: 5,
-        borderRadius: 10,
-        borderColor: '#8d71fe',
-        paddingHorizontal: wp('2%')
-      }}/>
-      <TextInput onChangeText={(e) => {
-        setPassword(e)
-      }} placeholder={'Password'} secureTextEntry={true} style={{
-        width: '90%',
-        borderWidth: 1,
-        marginVertical: 5,
-        borderRadius: 10,
-        borderColor: '#8d71fe',
-        paddingHorizontal: wp('2%')
-      }}/>
-      <TouchableOpacity onPress={() => {
-        EmailLogin()
-      }} style={{
-        height: 50,
-        borderRadius: 10,
-        alignItems: 'center',
-        marginVertical: hp('2%'),
         alignSelf: 'center',
-        justifyContent: 'center',
-        width: '60%',
-        backgroundColor: '#8d71fe'
-      }}>
-        <Text style={{ color: '#fff', fontSize: 16 }}>Sign Up</Text>
-      </TouchableOpacity>
+        marginBottom: wp(20),
+        marginTop: wp(10)
+      }} source={require('../../assets/icon.png')}/>
+      <TextInput
+        onChangeText={(e) => {
+          setEmail(e)
+        }}
+        placeholderTextColor={'#929191'}
+        placeholder={'Full Name'}
+        style={{
+          width: '90%',
+          color:'#000',
+          fontWeight:'bold',
+          borderWidth: 1,
+          height:wp(12),
+          marginVertical: 5,
+          borderRadius: 10,
+          borderColor: '#00a7e7',
+          paddingHorizontal: wp('2%')
+        }}/>
+      <TextInput
+        onChangeText={(e) => {
+          setEmail(e)
+        }} placeholder={'Email'}
+        placeholderTextColor={'#929191'}
+        keyboardType={'email-address'} style={{
+        width: '90%',
+        height:wp(12),
+        color:'#000',
+        fontWeight:'bold',
+        borderWidth: 1,
+        marginVertical: 5,
+        borderRadius: 10,
+        borderColor: '#00a7e7',
+        paddingHorizontal: wp('2%')
+      }}/>
+      <TextInput
+        onChangeText={(e) => {
+          setPassword(e)
+        }} placeholder={'Password'}
+        placeholderTextColor={'#929191'}
+        secureTextEntry={true} style={{
+        width: '90%',
+        height:wp(12),
+        borderWidth: 1,
+        marginVertical: 5,
+        fontWeight:'bold',
+        color:'#000',
+        borderRadius: 10,
+        borderColor: '#00a7e7',
+        paddingHorizontal: wp('2%')
+      }}/>
+        <TouchableOpacity onPress={() => {
+          EmailLogin()
+        }} style={{
+          height: wp(12),
+          borderRadius: 10,
+          alignItems: 'center',
+          marginVertical: hp('2%'),
+          alignSelf: 'center',
+          justifyContent: 'center',
+          width: wp(60),
+          backgroundColor: '#00a7e7'
+        }}>
+          <Text style={{ color: '#fff', fontSize: 16 }}>Sign Up</Text>
+        </TouchableOpacity>
     </View>
   )
 }
