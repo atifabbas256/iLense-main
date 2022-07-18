@@ -1375,6 +1375,11 @@
   resolved "https://registry.yarnpkg.com/@react-native-firebase/auth/-/auth-15.1.0.tgz#9cf681f83c10491d460f097f6075e8c93dd2e5af"
   integrity sha512-vcD/PHsP2TWbCMeT3Km+7iyA8Rr+lmMyFDyFwVtiEzohGCaFllVx9tbzIe4tG5E/s/fuNzbyW4X/b7f5lbyJqQ==
 
+"@react-native-firebase/firestore@15.1.0":
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/firestore/-/firestore-15.1.0.tgz#e8a56e9f09d5f189ec6e2309f845b2ece1a71b33"
+  integrity sha512-JMEvTGQYa0pi7EHX1uXovgRXxk/u6wIfk8mtNUNm+7I6To78NJLG6Jlb/xRQqP1BRFgaZ32sRF7MzGZoTqN/DQ==
+
 "@react-native-firebase/storage@15.1.0":
   version "15.1.0"
   resolved "https://registry.yarnpkg.com/@react-native-firebase/storage/-/storage-15.1.0.tgz#f68254d3e3d1fdc61fdfff285f1fc5e7a79ff9c1"
@@ -5068,6 +5073,11 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.6"
 
+moment@^2.29.4:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -5683,6 +5693,11 @@ react-native-image-picker@^4.8.3:
   version "4.8.4"
   resolved "https://registry.yarnpkg.com/react-native-image-picker/-/react-native-image-picker-4.8.4.tgz#ac52f1e265458e944664adf1dcd0a9ee408fe083"
   integrity sha512-Mjh2j/sddyolb16EpmprWzbtyeFvW8Xgzr/8WNi9d6bR2FC/kL78cY/a+7Yzujg5ZDtT1MWys+eWw/qtfwgGiw==
+
+react-native-permissions@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-3.5.0.tgz#ebd81a2928f1fb215cef01c8e39c21c96de330ef"
+  integrity sha512-9HrmW1BDVsWAFhaGMfQErxoUBDdsrUY19LAtnExYMaNTd3LsT7R+yXX0oN/XLtF7wok68izN8iCLmieX4/MElA==
 
 react-native-responsive-screen@^1.4.2:
   version "1.4.2"

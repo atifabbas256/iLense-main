@@ -74,7 +74,7 @@ const LoginEmail = ({ navigation }) => {
           try {
             await AsyncStorage.setItem(
               'loginUser',
-              JSON.stringify({ user })
+              JSON.stringify(user)
             );
           } catch (error) {
             // Error saving data
@@ -87,6 +87,8 @@ const LoginEmail = ({ navigation }) => {
           console.log('User account created & signed in!', e);
         })
         .catch(error => {
+          alert(error)
+          console.log('error',error.code)
           if (error.code === 'auth/email-already-in-use') {
             console.log('That email address is already in use!');
           }
@@ -181,7 +183,7 @@ const LoginEmail = ({ navigation }) => {
         <Text style={{ color: '#e70000', fontSize: 16 }}>Forgotten your password?</Text>
       </TouchableOpacity>
       
-      <View style={{ alignItems: 'center', alignSelf: 'center', top: '10%' }}>
+      {/*<View style={{ alignItems: 'center', alignSelf: 'center', top: '10%' }}>
         <Text style={{ marginBottom: '2%' }}>______ Or ______</Text>
         <GoogleSigninButton
           style={{ width: 192, height: 48, marginTop: 10 }}
@@ -195,7 +197,7 @@ const LoginEmail = ({ navigation }) => {
           }}
           // disabled={this.state.isSigninInProgress}
         />
-      </View>
+      </View>*/}
     </View>
     </TouchableWithoutFeedback>
   )

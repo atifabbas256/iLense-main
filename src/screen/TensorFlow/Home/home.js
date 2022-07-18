@@ -7,8 +7,8 @@ import { heightPercentageToDP as hp, widthPercentageToDP as wp } from "react-nat
 let tflite = new Tflite();
 
 tflite.loadModel({
-    model: 'models/model1.tflite',// required
-    labels: 'models/labels1.txt',  // required
+    model: 'models/model.tflite',// required
+    labels: 'models/labels.txt',  // required
   },
   (err, res) => {
     if (err)
@@ -19,6 +19,10 @@ tflite.loadModel({
 function HomeScreen({ navigation }) {
   const [imageUri, setImageUriUri] = useState(null);
   const [response, setResponse] = useState('');
+  
+  useEffect( () => {
+    takeImageFromCamera()
+  },[])
   
   const takeImageFromCamera = async (type) => {
     const options = {

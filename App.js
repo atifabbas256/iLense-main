@@ -9,6 +9,9 @@ import TensrFlowBottomTab from "./src/components/TensrFlowBottomTab";
 import WalkThrough from "./src/screen/Intro/Walkthrough";
 import SignUp from "./src/screen/SignUp/signUp";
 import HomeScreen from "./src/screen/Home/home";
+import { LogBox } from 'react-native';
+LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
+LogBox.ignoreAllLogs();//Ignore all log notifications
 
 const Stack = createNativeStackNavigator();
 const OcrStack = createNativeStackNavigator();

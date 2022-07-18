@@ -1,15 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-31:12
-INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-31:12
-INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-31:12
-INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-31:12
-MERGED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-31:12
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-62:12
+INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-62:12
+INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-62:12
+INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-62:12
+MERGED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-62:12
 MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/mac/.gradle/caches/transforms-3/0eaaf9ae151262497f4006bcc6e65951/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/mac/.gradle/caches/transforms-3/960be9331c34bacdc2cef3bc42de1b2f/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/mac/.gradle/caches/transforms-3/fcc26310fedd9184ea3591d179b0508c/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
 MERGED from [:tflite-react-native] /Users/mac/Downloads/ILense-main/node_modules/tflite-react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-firebase_auth] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-firebase_firestore] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-firebase_storage] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
 MERGED from [:react-native-firebase_app] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-32:12
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/mac/.gradle/caches/transforms-3/b8d1d8e56e1a12f642bddd5037242447/transformed/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:2:1-9:12
@@ -18,6 +19,7 @@ MERGED from [:react-native-fs] /Users/mac/Downloads/ILense-main/node_modules/rea
 MERGED from [:react-native-community_async-storage] /Users/mac/Downloads/ILense-main/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-google-signin_google-signin] /Users/mac/Downloads/ILense-main/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-image-picker] /Users/mac/Downloads/ILense-main/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-permissions] /Users/mac/Downloads/ILense-main/node_modules/react-native-permissions/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] /Users/mac/Downloads/ILense-main/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/mac/Downloads/ILense-main/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-text-recognition] /Users/mac/Downloads/ILense-main/node_modules/react-native-text-recognition/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
@@ -40,6 +42,8 @@ MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/mac/.gradle/ca
 MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/mac/.gradle/caches/transforms-3/e05bf86562e1eed5556c4453a2c0b378/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/mac/.gradle/caches/transforms-3/0162638511bd0f4736f16f8c11403ed9/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/mac/.gradle/caches/transforms-3/d886a0c6c7828baaba0fc34b98181778/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:2:1-26:12
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/mac/.gradle/caches/transforms-3/2cead87a35a095d34e041dad4ef27606/transformed/jetified-grpc-android-1.44.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] /Users/mac/.gradle/caches/transforms-3/1469ad01802c0e3ae681f4cd743da4db/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/mac/.gradle/caches/transforms-3/1e65c248a0a209f790c9ce5b60a4053e/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/mac/.gradle/caches/transforms-3/238b601b79ce82f969d3c9d6ecefff52/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
@@ -65,7 +69,8 @@ MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/mac/.gradle/cac
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/mac/.gradle/caches/transforms-3/f1fff91a1d40887ac492b36a2356896e/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/d9be20646280433ccfbfa001cc215c95/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mac/.gradle/caches/transforms-3/b5c58a23db11173b197bd476fb056f4b/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/mac/.gradle/caches/transforms-3/9afec7f48c90f8046e30dc83c30b8cc8/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/mac/.gradle/caches/transforms-3/42957c8640ef8b2c2440ec6593082835/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/mac/.gradle/caches/transforms-3/2af86458b6898f28a615d0fa75d89ed0/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/mac/.gradle/caches/transforms-3/194a2b88c6076ec4228e82c5b427af33/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/mac/.gradle/caches/transforms-3/23ea5a2dd4e4598c62a84ce6a213a8a9/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/c4677c6052d08af6368a96efc3d4242c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
@@ -118,6 +123,7 @@ MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/mac/.gradle/caches/transfo
 MERGED from [org.tensorflow:tensorflow-lite-api:2.9.0] /Users/mac/.gradle/caches/transforms-3/bfceab138305c31de574a5d11c3cc496/transformed/jetified-tensorflow-lite-api-2.9.0/AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/mac/.gradle/caches/transforms-3/5511dfd5af99fa44e25a7d21b7cd7e5e/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mac/.gradle/caches/transforms-3/34827450a97bf2ff20a64f2b2c62c590/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/mac/.gradle/caches/transforms-3/d6c502b5f073b2758030e67992385b51/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifest.xml:2:1-13:12
@@ -128,60 +134,162 @@ INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidMani
 		INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-31:12
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-62:12
 		INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-31:12
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:1-62:12
 		INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:1:11-69
-uses-permission#android.permission.INTERNET
-ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/mac/.gradle/caches/transforms-3/0eaaf9ae151262497f4006bcc6e65951/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
-MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/mac/.gradle/caches/transforms-3/0eaaf9ae151262497f4006bcc6e65951/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
-MERGED from [:react-native-firebase_auth] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_auth] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_storage] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_storage] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/mac/.gradle/caches/transforms-3/f7bcf2d3f677fbb80627fa418a8b1757/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/mac/.gradle/caches/transforms-3/f7bcf2d3f677fbb80627fa418a8b1757/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mac/.gradle/caches/transforms-3/d293e427ece3eb58e2ce2a365c5cd84f/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mac/.gradle/caches/transforms-3/d293e427ece3eb58e2ce2a365c5cd84f/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/mac/.gradle/caches/transforms-3/3bf2d3839ee91beda6ed101fbfcde007/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:27:5-67
-MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/mac/.gradle/caches/transforms-3/3bf2d3839ee91beda6ed101fbfcde007/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:27:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/mac/.gradle/caches/transforms-3/a52190ef2158b94f3c3ddf8b6ba48a56/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/mac/.gradle/caches/transforms-3/a52190ef2158b94f3c3ddf8b6ba48a56/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mac/.gradle/caches/transforms-3/49beace5e10f8e6550aee993949ed382/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mac/.gradle/caches/transforms-3/49beace5e10f8e6550aee993949ed382/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/mac/.gradle/caches/transforms-3/7d68057f9751ee474860ed7e84b1f3bc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/mac/.gradle/caches/transforms-3/7d68057f9751ee474860ed7e84b1f3bc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/mac/.gradle/caches/transforms-3/2e7037c4c02298553e26fc797b285fd7/transformed/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/mac/.gradle/caches/transforms-3/2e7037c4c02298553e26fc797b285fd7/transformed/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/mac/.gradle/caches/transforms-3/1f48f1e14e02a863ec1a374051690c87/transformed/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/mac/.gradle/caches/transforms-3/1f48f1e14e02a863ec1a374051690c87/transformed/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
+uses-permission#android.permission.ACCEPT_HANDOVER
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:4:5-74
 	android:name
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:4:22-71
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:5:5-85
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:5:22-82
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_MEDIA_LOCATION
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#com.android.voicemail.permission.ADD_VOICEMAIL
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:10:5-86
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:10:22-83
+uses-permission#android.permission.ANSWER_PHONE_CALLS
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:11:22-74
+uses-permission#android.permission.BLUETOOTH_ADVERTISE
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:12:22-75
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:14:5-73
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:14:22-70
+uses-permission#android.permission.BODY_SENSORS
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:15:22-68
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:16:5-69
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:16:22-66
+uses-permission#android.permission.CAMERA
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:17:5-65
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:17:22-62
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:18:5-71
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:18:22-68
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:19:5-77
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:19:22-74
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:20:22-78
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:21:5-72
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:21:22-69
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:22:5-72
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:22:22-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:23:5-72
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:23:22-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:6:5-80
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:24:5-80
 	android:name
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:6:22-77
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:7:5-81
-MERGED from [:react-native-fs] /Users/mac/Downloads/ILense-main/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
-MERGED from [:react-native-fs] /Users/mac/Downloads/ILense-main/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:24:22-77
+uses-permission#android.permission.READ_PHONE_NUMBERS
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:25:5-77
 	android:name
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:25:22-74
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:26:22-72
+uses-permission#android.permission.READ_SMS
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:27:22-64
+uses-permission#android.permission.RECEIVE_MMS
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:28:5-70
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:28:22-67
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:29:5-70
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:29:22-67
+uses-permission#android.permission.RECEIVE_WAP_PUSH
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:30:5-75
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:30:22-72
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:8:5-70
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:31:5-71
 	android:name
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:8:22-68
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:31:22-68
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:32:5-67
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:32:22-64
+uses-permission#android.permission.USE_SIP
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:33:5-66
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:33:22-63
+uses-permission#android.permission.UWB_RANGING
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:34:5-70
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:34:22-67
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:35:5-73
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:35:22-70
+uses-permission#android.permission.WRITE_CALL_LOG
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:36:5-73
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:36:22-70
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:37:5-73
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:37:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:38:5-81
+MERGED from [:react-native-fs] /Users/mac/Downloads/ILense-main/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-fs] /Users/mac/Downloads/ILense-main/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:38:22-78
 application
-ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:9:5-30:19
-MERGED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:9:5-30:19
-MERGED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:9:5-30:19
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:40:5-61:19
+MERGED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:40:5-61:19
+MERGED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:40:5-61:19
 MERGED from [:react-native-firebase_app] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-30:19
 MERGED from [:react-native-firebase_app] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-30:19
 MERGED from [com.google.firebase:firebase-analytics:21.0.0] /Users/mac/.gradle/caches/transforms-3/b8d1d8e56e1a12f642bddd5037242447/transformed/jetified-firebase-analytics-21.0.0/AndroidManifest.xml:7:5-20
@@ -192,6 +300,8 @@ MERGED from [com.facebook.react:react-native:0.68.2] /Users/mac/.gradle/caches/t
 MERGED from [com.facebook.react:react-native:0.68.2] /Users/mac/.gradle/caches/transforms-3/de50bee871c13e12d0acaf262ef166ba/transformed/jetified-react-native-0.68.2/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/mac/.gradle/caches/transforms-3/47839bf71bdc506de488a7516006b247/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/mac/.gradle/caches/transforms-3/47839bf71bdc506de488a7516006b247/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.android.material:material:1.1.0] /Users/mac/.gradle/caches/transforms-3/1469ad01802c0e3ae681f4cd743da4db/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/mac/.gradle/caches/transforms-3/1469ad01802c0e3ae681f4cd743da4db/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [org.tensorflow:tensorflow-lite:2.9.0] /Users/mac/.gradle/caches/transforms-3/6257ad7ddf40a9b014d514877292ac0a/transformed/jetified-tensorflow-lite-2.9.0/AndroidManifest.xml:10:5-20
@@ -214,8 +324,8 @@ MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/mac/.gradle/cac
 MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/mac/.gradle/caches/transforms-3/3bf2d3839ee91beda6ed101fbfcde007/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mac/.gradle/caches/transforms-3/b5c58a23db11173b197bd476fb056f4b/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mac/.gradle/caches/transforms-3/b5c58a23db11173b197bd476fb056f4b/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/mac/.gradle/caches/transforms-3/9afec7f48c90f8046e30dc83c30b8cc8/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/mac/.gradle/caches/transforms-3/9afec7f48c90f8046e30dc83c30b8cc8/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/mac/.gradle/caches/transforms-3/42957c8640ef8b2c2440ec6593082835/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/mac/.gradle/caches/transforms-3/42957c8640ef8b2c2440ec6593082835/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/mac/.gradle/caches/transforms-3/194a2b88c6076ec4228e82c5b427af33/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/mac/.gradle/caches/transforms-3/194a2b88c6076ec4228e82c5b427af33/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/mac/.gradle/caches/transforms-3/23ea5a2dd4e4598c62a84ce6a213a8a9/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
@@ -257,58 +367,58 @@ MERGED from [org.tensorflow:tensorflow-lite-api:2.9.0] /Users/mac/.gradle/caches
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/mac/.gradle/caches/transforms-3/5511dfd5af99fa44e25a7d21b7cd7e5e/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/mac/.gradle/caches/transforms-3/5511dfd5af99fa44e25a7d21b7cd7e5e/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
 	android:requestLegacyExternalStorage
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:11:7-50
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:11:7-50
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:42:7-50
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:42:7-50
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /Users/mac/.gradle/caches/transforms-3/e196ed796e6610102ecf8890aeea5562/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:12:7-39
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:12:7-39
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:43:7-39
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:43:7-39
 	tools:ignore
 		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifest.xml:10:9-48
 	android:roundIcon
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:14:7-52
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:14:7-52
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:45:7-52
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:45:7-52
 	tools:targetApi
 		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:13:7-41
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:13:7-41
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:44:7-41
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:44:7-41
 	android:allowBackup
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:15:7-34
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:15:7-34
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:46:7-34
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:46:7-34
 	android:theme
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:17:7-38
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:17:7-38
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:48:7-38
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:48:7-38
 	android:usesCleartextTraffic
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:16:7-42
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:47:7-42
 	android:name
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:10:7-38
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:10:7-38
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:41:7-38
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:41:7-38
 activity#com.ilense.MainActivity
-ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:18:7-29:18
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:49:7-60:18
 	android:label
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:20:9-41
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:51:9-41
 	android:launchMode
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:22:9-40
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:53:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:23:9-51
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:54:9-51
 	android:exported
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:24:9-32
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:55:9-32
 	android:configChanges
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:21:9-118
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:52:9-118
 	android:name
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:19:9-37
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:50:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:25:9-28:25
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:56:9-59:25
 action#android.intent.action.MAIN
-ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:26:13-65
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:57:13-65
 	android:name
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:26:21-62
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:57:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:27:13-73
+ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:58:13-73
 	android:name
-		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:27:23-70
+		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml:58:23-70
 uses-sdk
 INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/main/AndroidManifest.xml
@@ -323,6 +433,8 @@ MERGED from [:tflite-react-native] /Users/mac/Downloads/ILense-main/node_modules
 MERGED from [:tflite-react-native] /Users/mac/Downloads/ILense-main/node_modules/tflite-react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_auth] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_auth] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_firestore] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_firestore] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_storage] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_storage] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_app] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
@@ -339,6 +451,8 @@ MERGED from [:react-native-google-signin_google-signin] /Users/mac/Downloads/ILe
 MERGED from [:react-native-google-signin_google-signin] /Users/mac/Downloads/ILense-main/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-image-picker] /Users/mac/Downloads/ILense-main/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-image-picker] /Users/mac/Downloads/ILense-main/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-permissions] /Users/mac/Downloads/ILense-main/node_modules/react-native-permissions/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-permissions] /Users/mac/Downloads/ILense-main/node_modules/react-native-permissions/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /Users/mac/Downloads/ILense-main/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /Users/mac/Downloads/ILense-main/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /Users/mac/Downloads/ILense-main/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -383,6 +497,10 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/mac/.gradle
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/mac/.gradle/caches/transforms-3/0162638511bd0f4736f16f8c11403ed9/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/mac/.gradle/caches/transforms-3/d886a0c6c7828baaba0fc34b98181778/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/mac/.gradle/caches/transforms-3/d886a0c6c7828baaba0fc34b98181778/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/mac/.gradle/caches/transforms-3/2cead87a35a095d34e041dad4ef27606/transformed/jetified-grpc-android-1.44.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/mac/.gradle/caches/transforms-3/2cead87a35a095d34e041dad4ef27606/transformed/jetified-grpc-android-1.44.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.1.0] /Users/mac/.gradle/caches/transforms-3/1469ad01802c0e3ae681f4cd743da4db/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] /Users/mac/.gradle/caches/transforms-3/1469ad01802c0e3ae681f4cd743da4db/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/mac/.gradle/caches/transforms-3/1e65c248a0a209f790c9ce5b60a4053e/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
@@ -433,8 +551,10 @@ MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/mac/.
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/mac/.gradle/caches/transforms-3/d9be20646280433ccfbfa001cc215c95/transformed/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mac/.gradle/caches/transforms-3/b5c58a23db11173b197bd476fb056f4b/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/mac/.gradle/caches/transforms-3/b5c58a23db11173b197bd476fb056f4b/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/mac/.gradle/caches/transforms-3/9afec7f48c90f8046e30dc83c30b8cc8/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] /Users/mac/.gradle/caches/transforms-3/9afec7f48c90f8046e30dc83c30b8cc8/transformed/jetified-firebase-appcheck-interop-16.0.0-beta02/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/mac/.gradle/caches/transforms-3/42957c8640ef8b2c2440ec6593082835/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0] /Users/mac/.gradle/caches/transforms-3/42957c8640ef8b2c2440ec6593082835/transformed/jetified-firebase-appcheck-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/mac/.gradle/caches/transforms-3/2af86458b6898f28a615d0fa75d89ed0/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/mac/.gradle/caches/transforms-3/2af86458b6898f28a615d0fa75d89ed0/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/mac/.gradle/caches/transforms-3/194a2b88c6076ec4228e82c5b427af33/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/mac/.gradle/caches/transforms-3/194a2b88c6076ec4228e82c5b427af33/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/mac/.gradle/caches/transforms-3/23ea5a2dd4e4598c62a84ce6a213a8a9/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
@@ -539,6 +659,8 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/mac/.gradle/cache
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/mac/.gradle/caches/transforms-3/5511dfd5af99fa44e25a7d21b7cd7e5e/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mac/.gradle/caches/transforms-3/34827450a97bf2ff20a64f2b2c62c590/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mac/.gradle/caches/transforms-3/34827450a97bf2ff20a64f2b2c62c590/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/mac/.gradle/caches/transforms-3/d6c502b5f073b2758030e67992385b51/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/mac/.gradle/caches/transforms-3/d6c502b5f073b2758030e67992385b51/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -559,6 +681,32 @@ ADDED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifes
 		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifest.xml:11:84-108
 	android:name
 		ADDED from /Users/mac/Downloads/ILense-main/android/app/src/debug/AndroidManifest.xml:11:19-83
+uses-permission#android.permission.INTERNET
+ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/mac/.gradle/caches/transforms-3/0eaaf9ae151262497f4006bcc6e65951/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [:react-native-firebase_auth] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_auth] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_storage] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_storage] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/mac/.gradle/caches/transforms-3/f7bcf2d3f677fbb80627fa418a8b1757/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/mac/.gradle/caches/transforms-3/f7bcf2d3f677fbb80627fa418a8b1757/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mac/.gradle/caches/transforms-3/d293e427ece3eb58e2ce2a365c5cd84f/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mac/.gradle/caches/transforms-3/d293e427ece3eb58e2ce2a365c5cd84f/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/mac/.gradle/caches/transforms-3/3bf2d3839ee91beda6ed101fbfcde007/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/mac/.gradle/caches/transforms-3/3bf2d3839ee91beda6ed101fbfcde007/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/mac/.gradle/caches/transforms-3/a52190ef2158b94f3c3ddf8b6ba48a56/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/mac/.gradle/caches/transforms-3/a52190ef2158b94f3c3ddf8b6ba48a56/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mac/.gradle/caches/transforms-3/49beace5e10f8e6550aee993949ed382/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/mac/.gradle/caches/transforms-3/49beace5e10f8e6550aee993949ed382/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/mac/.gradle/caches/transforms-3/7d68057f9751ee474860ed7e84b1f3bc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.0.0] /Users/mac/.gradle/caches/transforms-3/7d68057f9751ee474860ed7e84b1f3bc/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/mac/.gradle/caches/transforms-3/2e7037c4c02298553e26fc797b285fd7/transformed/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.0.0] /Users/mac/.gradle/caches/transforms-3/2e7037c4c02298553e26fc797b285fd7/transformed/jetified-play-services-measurement-impl-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/mac/.gradle/caches/transforms-3/1f48f1e14e02a863ec1a374051690c87/transformed/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/mac/.gradle/caches/transforms-3/1f48f1e14e02a863ec1a374051690c87/transformed/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/mac/.gradle/caches/transforms-3/0eaaf9ae151262497f4006bcc6e65951/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/mac/.gradle/caches/transforms-3/0eaaf9ae151262497f4006bcc6e65951/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
 	android:name
@@ -581,6 +729,10 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:react-native-firebase_auth] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
 MERGED from [:react-native-firebase_storage] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
 MERGED from [:react-native-firebase_storage] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/mac/.gradle/caches/transforms-3/2cead87a35a095d34e041dad4ef27606/transformed/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.44.1] /Users/mac/.gradle/caches/transforms-3/2cead87a35a095d34e041dad4ef27606/transformed/jetified-grpc-android-1.44.1/AndroidManifest.xml:9:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/mac/.gradle/caches/transforms-3/f7bcf2d3f677fbb80627fa418a8b1757/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/mac/.gradle/caches/transforms-3/f7bcf2d3f677fbb80627fa418a8b1757/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/mac/.gradle/caches/transforms-3/40a1c033b40045d4a4972374c96ee827/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
@@ -609,6 +761,8 @@ ADDED from [:react-native-firebase_app] /Users/mac/Downloads/ILense-main/node_mo
 		ADDED from [:react-native-firebase_app] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:react-native-firebase_app] /Users/mac/Downloads/ILense-main/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mac/.gradle/caches/transforms-3/d293e427ece3eb58e2ce2a365c5cd84f/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.firebase:firebase-auth:21.0.6] /Users/mac/.gradle/caches/transforms-3/d293e427ece3eb58e2ce2a365c5cd84f/transformed/jetified-firebase-auth-21.0.6/AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.firebase:firebase-storage:20.0.1] /Users/mac/.gradle/caches/transforms-3/3bf2d3839ee91beda6ed101fbfcde007/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml:30:9-36:19
@@ -667,6 +821,12 @@ MERGED from [:rn-text-detector] /Users/mac/Downloads/ILense-main/node_modules/rn
 		ADDED from [:react-native-text-recognition] /Users/mac/Downloads/ILense-main/node_modules/react-native-text-recognition/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-28
 	android:name
 		ADDED from [:react-native-text-recognition] /Users/mac/Downloads/ILense-main/node_modules/react-native-text-recognition/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-60
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.2.0] /Users/mac/.gradle/caches/transforms-3/5f3e3194fed9d3a747769511ff74460c/transformed/jetified-firebase-firestore-24.2.0/AndroidManifest.xml:21:17-111
 service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
 ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /Users/mac/.gradle/caches/transforms-3/e65b1e2f6ed61c028d5a87a5207e12d9/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.mlkit:vision-common:16.5.0] /Users/mac/.gradle/caches/transforms-3/8d372ac8d391b62fedd6429ebd787d46/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:9:9-15:19
